@@ -1,3 +1,5 @@
 # Converter
 Converterin ideana on saada kontaktia sellaiseen ohjelman suunnitteluun jolle koen olevan käyttöä minulle työelämässä. (Sivuaine opiskelija). Ohjelmani loisi valmiin raportin suoraan mittalaitteen raakadasta. Ohjelmaan olisi tarkoitus luoda erilaisia valintoja millainen raportti syntyisi. Ohjelma pystyisi myös tarvittaessa suorittamaan laskentaa ja ihan korjauskertoimen lisäämisestä, laskemaan  tulokset muutettuna eri yksiköihin. Laskennassa voidaan myös ottaa muunto kertoimia esim. annetaan parametreja eri ikkunoihin joiden avulla voidaan laskea korjauskertoimia. Myös pohja graafisille kuvaajille olisi tarkoitus luoda. Tulosten korjauskertoimen liukuma olisi myös tavoitteena. Eli korjaus kertoin liukuisi tai laskettaisiin jokaisen datapisteen kohdalla uudestaan.
+
+
 ![Alt text](Alustava suunnittelu.png)
