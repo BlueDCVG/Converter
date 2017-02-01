@@ -1,8 +1,13 @@
 
 package converter.converter;
 
+import java.io.File;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+        Reader lukija = new Reader(new File("150910Hyde056.D/results.txt"));
+        System.out.println(lukija.dataList().size());
+
     }
 }
