@@ -1,24 +1,22 @@
-
 package converter.converter;
+
 import java.io.*;
 import java.util.ArrayList;
 
 public class Reader {
+
     private BufferedReader bfReader;
-    private StringBuilder sb;
 
     public Reader(File luettava) {
         try {
             this.bfReader = new BufferedReader(new FileReader(luettava));
-            this.sb = new StringBuilder();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
     }
 
-
     public void setFile(File luettava) {
-        try{
+        try {
             this.bfReader = new BufferedReader(new FileReader(luettava));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -31,7 +29,7 @@ public class Reader {
             ArrayList<String[]> rivit = new ArrayList<>();
             String line = bfReader.readLine();
 
-            while (line != null){
+            while (line != null) {
                 rivit.add(line.split("  +"));
                 line = bfReader.readLine();
             }
@@ -41,6 +39,5 @@ public class Reader {
             return null;
         }
     }
-
 
 }
