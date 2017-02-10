@@ -11,6 +11,7 @@ import static org.junit.Assert.*;
 
 public class WriterOmaTest {
     WriterOma kirjuri = new WriterOma("test.csv");
+
     ArrayList<Integer> compounds = new ArrayList();
 
 

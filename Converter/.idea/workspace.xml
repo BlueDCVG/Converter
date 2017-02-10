@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04f25c0c-cc54-4a8b-acbf-fd443ffaea72" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Converter.iml" afterPath="$PROJECT_DIR$/Converter.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/converter/converter/Main.java" afterPath="$PROJECT_DIR$/src/main/java/converter/converter/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/converter/converter/Reader.java" afterPath="$PROJECT_DIR$/src/main/java/converter/converter/Reader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/converter/converter/WriterOma.java" afterPath="$PROJECT_DIR$/src/main/java/converter/converter/WriterOma.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/converter/converter/ReaderTest.java" afterPath="$PROJECT_DIR$/src/test/java/converter/converter/ReaderTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dokumentaatio/Tuntikirjanpito.md" afterPath="$PROJECT_DIR$/../Dokumentaatio/Tuntikirjanpito.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/converter/converter/WriterOmaTest.java" afterPath="$PROJECT_DIR$/src/test/java/converter/converter/WriterOmaTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../README.md" afterPath="$PROJECT_DIR$/../README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,14 +21,24 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/converter/converter/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            <state relative-caret-position="-96">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WriterOmaTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/converter/converter/WriterOmaTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -127,12 +132,12 @@
         <option value="$PROJECT_DIR$/src/main/java/converter/converter/Converter.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/converter/converter/Writer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/converter/converter/WriterOmaTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/converter/converter/ReaderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/converter/converter/DataSet.java" />
         <option value="$PROJECT_DIR$/src/main/java/converter/converter/Reader.java" />
         <option value="$PROJECT_DIR$/src/main/java/converter/converter/WriterOma.java" />
         <option value="$PROJECT_DIR$/src/main/java/converter/converter/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/converter/converter/WriterOmaTest.java" />
       </list>
     </option>
   </component>
@@ -1149,14 +1154,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/converter/converter/WriterOmaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/converter/converter/Converter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1204,11 +1201,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/converter/converter/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        <state relative-caret-position="-96">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/converter/converter/WriterOmaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

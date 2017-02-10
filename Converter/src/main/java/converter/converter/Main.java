@@ -18,11 +18,12 @@ public class Main {
         kirjuri.newSheet(tulokset);
         kirjuri.printConcAll();
         kirjuri.jobDone();
+
         WriterOma kirjuri2 = new WriterOma("testResponce");
         kirjuri2.newSheet(tulokset);
         kirjuri2.printResponseAll();
         kirjuri2.jobDone();
-        
+
         System.out.println(tulokset.size());
         System.out.println(tulokset.get(0).getCompounds().get(0));
         System.out.println(tulokset.get(1).getCompounds().get(1));
