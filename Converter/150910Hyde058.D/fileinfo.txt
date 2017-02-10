@@ -1,0 +1,34 @@
+
+           Data File Information
+
+     Data File     : C:\MSDChem\1\DATA\2015DATA\2015Hyde\20150910HYDE\150910Hyde058.D\data.ms
+     Operator:     :  ilmatiede
+     Acquired On   :  16 Sep 2015  00:23    
+     Instrument    :  VOC-GC-MSD
+     Method File   :  ALLVOC(WAX).M
+     Sample Name   :  Hyytiala 10.9.-
+     Misc Info     :   
+     Vial Number   :  8
+     Sample Mult.  :  555.00
+     Sample Amount :  0.00
+     Exp. Barcode  :   
+     Act.  Barcode :   
+
+           Secondary Data File Information
+
+     Data File    :  C:\MSDChem\1\DATA\2015DATA\2015Hyde\20150910HYDE\150910Hyde058.D\datasi
+...                  m.ms
+     Operator:    :  ilmatiede
+     Acquired On  :  16 Sep 2015  00:23    
+     Instrument   :  VOC-GC-MSD
+     Method File  :  ALLVOC(WAX).M
+     Sample Name  :  Hyytiala 10.9.-
+     Misc Info    :   
+     Vial Number  :  8
+
+
+
+     Files in Data Directory
+
+
+     * = File time stamp is before latest quant update

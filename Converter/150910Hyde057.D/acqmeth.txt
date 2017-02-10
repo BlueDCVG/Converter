@@ -1,0 +1,291 @@
+                        INSTRUMENT CONTROL PARAMETERS:    VOC-GC-MSD
+                        --------------------------------------------
+
+   C:\MSDCHEM\1\METHODS\ALLVOC(WAX).M
+      Tue Sep 15 23:26:01 2015
+
+Control Information
+------- -----------
+
+Sample Inlet      :  GC
+Injection Source  :  External Device
+Mass Spectrometer :  Enabled
+
+
+ No Sample Prep method has been assigned to this method.
+
+Oven
+Equilibration Time                           0.5 min
+Max Temperature                              250 degrees C
+Slow Fan                                     Disabled
+Oven Program                                 On
+    50 °C for 10 min
+    then 4 °C/min to 150 °C for 0 min
+    then 8 °C/min to 250 °C for 5 min
+Run Time                                     52.5 min
+10 min (Post Run)                            50 °C
+
+
+
+
+Sample Overlap
+Sample overlap is not enabled
+
+
+
+Front SS Inlet He
+Mode                                         Splitless
+Heater                                       On    150 °C
+Pressure                                     On    21.99 psi
+Total Flow                                   On    103.92 mL/min
+Septum Purge Flow                            On    3 mL/min
+Gas Saver                                    Off
+Purge Flow to Split Vent                     100 mL/min at 999.99 min
+
+
+Thermal Aux 2 {MSD Transfer Line}
+Heater                                       On
+Temperature Program                          On
+    250 °C for 0 min
+Run Time                                     52.5 min
+
+
+Column #1
+J&W 122-7332: 2926.60118
+DB-WAXetr
+260 °C: 30 m x 250 µm x 0.25 µm
+In: Front SS Inlet He
+Out: PCM B-1
+
+(Initial)                                    50 °C
+Pressure                                     21.99 psi
+Flow                                         0.92072 mL/min
+Average Velocity                             14.992 cm/sec
+Holdup Time                                  3.335 min
+Pressure Program                             On
+    21.99 psi for 0 min
+Run Time                                     52.5 min
+10 min (Post Run)                            21.99 psi
+
+
+Column #2
+Varian CP7565: 2017.61626
+CP-Al2O3/Na2SO4
+200 °C: 50 m x 320 µm x 5 µm
+In: PCM B-1 He
+Out: Front Detector FID
+
+(Initial)                                    50 °C
+Pressure                                     15.07 psi
+Flow                                         1.9184 mL/min
+Average Velocity                             29.232 cm/sec
+Holdup Time                                  2.8508 min
+Pressure Program                             On
+    15.07 psi for 0 min
+Run Time                                     52.5 min
+10 min (Post Run)                            15.07 psi
+
+
+Column #3
+Agilent 160-2635-5: 2017.61822
+Retention Cap
+450 °C: 0.64 m x 100 µm x 0 µm
+In: PCM B-1 He
+Out: Vacuum
+
+(Initial)                                    50 °C
+Pressure                                     15.07 psi
+Flow                                         2.1459 mL/min
+Average Velocity                             365.52 cm/sec
+Holdup Time                                  0.0029182 min
+Pressure Program                             On
+    15.07 psi for 0 min
+Run Time                                     52.5 min
+10 min (Post Run)                            15.07 psi
+
+
+
+
+
+Front Detector FID
+Heater                                       Off
+H2 Flow                                      Off
+Air Flow                                     Off
+Makeup Flow                                  Off
+Const Col + Makeup                           On    6.9184 mL/min
+Flame                                        Off
+Electrometer                                 On
+
+Valve 1
+Switching Valve                              Off
+
+PCM B-1 He: Supplies Column 2
+
+PCM B-2 He
+***Excluded from Affecting GC's Readiness State***
+Pressure Program                             Off
+    10 psi for 0 min
+Run Time                                     52.5 min
+
+
+
+Signals
+ Front Signal                                Save Off
+                                             20 Hz
+ Test Plot                                   Save Off
+                                             50 Hz
+ Test Plot                                   Save Off
+                                             50 Hz
+ Test Plot                                   Save Off
+                                             50 Hz
+
+Run Time Events
+  Time (min)    Event                          Position                       Setpoint
+           0    Valve                          Valve 1                        Off
+           5    Valve                          Valve 1                        Off
+
+                                MS ACQUISITION PARAMETERS
+
+
+General Information
+------- -----------
+
+Tune File                : atune.u
+Acquistion Mode          : Scan/SIM
+
+
+MS Information
+-- -----------
+
+Solvent Delay            : 2.00 min
+
+EMV Mode                 : Relative
+Relative Voltage         : 0
+Resulting EM Voltage     : 2106
+
+[Scan Parameters]
+
+Low Mass                 : 50.0
+High Mass                : 200.0
+Threshold                : 100
+Sample #                 : 2       A/D Samples    4
+Plot 2 low mass          : 45.0
+Plot 2 high mass         : 200.0
+[Sim Parameters]
+
+GROUP 1
+Group ID                 : Ethanol
+Resolution               : Low
+Plot 1 Ion               : 43.00
+Plot 2 Ion               : 46.0
+Ions/Dwell In Group      (  Mass,  Dwell) (  Mass,  Dwell) (  Mass,  Dwell) 
+                         ( 43.00,    100) ( 45.00,    100) ( 46.00,    100) 
+                         ( 57.00,    100) ( 58.00,    100) ( 67.00,    100) 
+                         ( 68.00,    100) ( 69.00,    100) ( 70.00,    100) 
+                         ( 72.00,    100) (117.00,    100) (118.00,    100) 
+
+GROUP 2
+Group ID                 : Benzene
+Resolution               : Low
+Group Start Time         : 7.30
+Plot 1 Ion               : 57.00
+Plot 2 Ion               : 45.0
+Ions/Dwell In Group      (  Mass,  Dwell) (  Mass,  Dwell) (  Mass,  Dwell) 
+                         ( 45.00,    100) ( 57.00,    100) ( 58.00,    100) 
+                         ( 59.00,    100) ( 71.00,    100) ( 77.00,    100) 
+                         ( 78.00,    100) ( 91.00,    100) ( 93.00,    100) 
+
+GROUP 3
+Group ID                 : Toluene
+Resolution               : Low
+Group Start Time         : 10.60
+Plot 1 Ion               : 92.00
+Plot 2 Ion               : 72.0
+Ions/Dwell In Group      (  Mass,  Dwell) (  Mass,  Dwell) (  Mass,  Dwell) 
+                         ( 55.00,    100) ( 56.00,    100) ( 57.00,    100) 
+                         ( 59.00,    100) ( 71.00,    100) ( 72.00,    100) 
+                         ( 73.00,    100) ( 82.00,    100) ( 91.00,    100) 
+                         ( 92.00,    100) ( 93.00,    100) 
+
+GROUP 4
+Group ID                 : Heptanal
+Resolution               : Low
+Group Start Time         : 17.80
+Plot 1 Ion               : 57.00
+Plot 2 Ion               : 70.0
+Ions/Dwell In Group      (  Mass,  Dwell) (  Mass,  Dwell) (  Mass,  Dwell) 
+                         ( 55.00,    100) ( 56.00,    100) ( 57.00,    100) 
+                         ( 58.00,    100) ( 69.00,    100) ( 70.00,    100) 
+                         ( 91.00,    100) ( 93.00,    100) 
+
+GROUP 5
+Group ID                 : octanal
+Resolution               : Low
+Group Start Time         : 23.80
+Plot 1 Ion               : 57.00
+Plot 2 Ion               : 60.0
+Ions/Dwell In Group      (  Mass,  Dwell) (  Mass,  Dwell) (  Mass,  Dwell) 
+                         ( 56.00,    100) ( 57.00,    100) ( 60.00,    100) 
+                         ( 67.00,    100) ( 69.00,    100) ( 71.00,    100) 
+                         ( 72.00,    100) ( 82.00,    100) ( 84.00,    100) 
+                         ( 93.00,    100) (108.00,    100) 
+
+GROUP 6
+Group ID                 : decanal
+Resolution               : Low
+Group Start Time         : 31.90
+Plot 1 Ion               : 57.00
+Plot 2 Ion               : 93.0
+Ions/Dwell In Group      (  Mass,  Dwell) (  Mass,  Dwell) (  Mass,  Dwell) 
+                         ( 57.00,    100) ( 60.00,    100) ( 73.00,    100) 
+                         ( 74.00,    100) ( 82.00,    100) ( 83.00,    100) 
+                         ( 87.00,    100) ( 88.00,    100) ( 93.00,    100) 
+                         ( 95.00,    100) (108.00,    100) 
+
+GROUP 7
+Group ID                 : Acids
+Resolution               : Low
+Group Start Time         : 39.90
+Plot 1 Ion               : 60.00
+Plot 2 Ion               : 93.0
+Ions/Dwell In Group      (  Mass,  Dwell) (  Mass,  Dwell) (  Mass,  Dwell) 
+                         ( 57.00,    100) ( 60.00,    100) ( 73.00,    100) 
+                         ( 93.00,    100) (121.00,    100) 
+
+[MSZones]
+
+MS Source                : 230 C   maximum 250 C
+MS Quad                  : 150 C   maximum 200 C
+
+
+                             END OF MS ACQUISITION PARAMETERS
+
+
+                              TUNE PARAMETERS for SN: US10428504
+                        -----------------------------
+
+ Trace Ion Detection is OFF.
+
+ EMISSION    :      34.610
+ ENERGY      :      69.922
+ REPELLER    :      22.584
+ IONFOCUS    :      90.157
+ ENTRANCE_LE :      25.500
+ EMVOLTS     :    2105.882
+                               Actual EMV  :    2105.88
+                               GAIN FACTOR :       1.06
+ AMUGAIN     :    2014.000
+ AMUOFFSET   :     120.563
+ FILAMENT    :       1.000
+ DCPOLARITY  :       1.000
+ ENTLENSOFFS :      19.827
+ MASSGAIN    :    -593.000   
+ MASSOFFSET  :     -36.000   
+
+                           END OF TUNE PARAMETERS
+                      ------------------------------------
+
+
+
+                            END OF INSTRUMENT CONTROL PARAMETERS
+                            ------------------------------------

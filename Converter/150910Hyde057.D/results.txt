@@ -1,0 +1,76 @@
+                             Quantitation Report    (QT Reviewed)
+
+  Data Path : C:\MSDChem\1\DATA\2015DATA\2015Hyde\20150910HYDE\
+  Data File : 150910Hyde057.D                                     
+  Acq On    : 15 Sep 2015  22:23
+  Operator  : ilmatiede
+  Sample    : Hyytiala 10.9.-
+  Misc      :  
+  ALS Vial  : 7   Sample Multiplier: 555
+
+  Quant Time: Nov 26 15:31:31 2015
+  Quant Method : C:\MSDChem\1\METHODS\150910MARKESshort.M
+  Quant Title  :  
+  QLast Update : Thu Sep 17 12:43:04 2015
+  Response via : Initial Calibration
+
+          Compound                   R.T. QIon  Response  Conc Units Dev(Min)
+   --------------------------------------------------------------------------
+
+   Target Compounds                                                   Qvalue
+     1] Propanal                    5.438   58     7565m  147.18             
+     2] Acetone???                  5.723   58   375167  3561.10      #   100
+     3] Methacrolein                6.547   70     4965m   29.87             
+     4] Butanal                     6.412   72     5533   121.88      #    29
+     5] Pentanal???                 8.727   58     2371m   40.27             
+     6) hexanal                     0.000             0      N.D.       
+     7) trans-2-hexen-1-al          0.000             0      N.D.       
+     8) heptanal                    0.000             0      N.D. d     
+     9) octanal                     0.000             0      N.D.       
+    10) nonanal                     0.000             0      N.D. d     
+    11) decanal                     0.000             0      N.D.       
+    12] Isopropanol                 7.374   45    19649m   40.50             
+    13] Ethylmethylketone_as_b...   6.883   72    15829   348.70      #    38
+    14) 3-methyl-2-buten-1-ol       0.000             0      N.D.       
+    15) 6-methyl-2-hepten-3-one     0.000             0      N.D. d     
+    16] 1-butanol                  16.171   56    92757   796.83      #    90
+    17] 1-Penten-3-ol              16.860   57     1270m    4.77             
+    18] 1-Pentanol                 21.220   55      645m    6.75             
+    19] trans-3-hexen-1-ol         26.991   67      495m    3.24             
+    20) cis-3-hexen-1-ol            0.000             0      N.D.       
+    21) trans-2-Hexen-1-ol          0.000             0      N.D. d     
+    22] 1-Hexanol                  25.680   56     1461m    6.94             
+    23) cis-2-hexen-1-ol            0.000             0      N.D.       
+    24) 1-Octen-3-ol                0.000             0      N.D.       
+    25) Butylacetate                0.000             0      N.D.       
+    26) cis-3-hexenylacetate        0.000             0      N.D. d     
+    27) Hexylacetate                0.000             0      N.D.       
+    28) trans-2-hexenyl-acetate     0.000             0      N.D.       
+    29] a-pinene-oxide             31.151  108     1386m   20.77             
+    30] Aceticacid???              29.681   60   826326  2325.90          100
+    31] propanoicacid              32.700   74    20141   323.16           87
+    32) Isobutyricacid              0.000             0      N.D. d     
+    33] Butanoicacid               35.621   60    24792   137.82      #    73
+    34] isopentanoicacid           36.786   60     2607m   13.75             
+    35] Pentanoicacid              38.647   60     9427    45.21      #    35
+    36) 4-methylpentanoicacid       0.000             0      N.D. d     
+    37] Hexanoicacid               41.153   60     9919    53.48      #    27
+    38) heptanoicacid               0.000             0      N.D. d     
+    39] Tetrachloromethane          6.320  117    86941   647.00      #     3
+    40] Benzene                     7.597   78   133830m  235.51             
+    41] Toluene                    10.975   91    91367   154.88      #    78
+    42] Ethylbenzene               14.942   91    13883    19.54      #    44
+    43] p/m-xylene                 15.702   91    22290    30.91      #    28
+    44] o-xylene                   17.915   91     8966m   16.15             
+    45] Hexane                      4.573   57     7962m   54.74             
+    46] Heptane                     4.728   57     7948m   78.58             
+    47] octane                      5.438   57     2683m   26.45             
+    48] Nonane                      6.547   57     9686m   51.52             
+    49) Decane                      0.000             0      N.D.       
+    50] Nopinone                   34.491   83      942m    4.22             
+    51] Pinonaldehyde?_as_nopi...  32.114   83     2917m   13.08             
+   --------------------------------------------------------------------------
+
+   (#) = qualifier out of range (m) = manual integration (+) = signals summed
+
+150910MARKESshort.M Thu Nov 26 15:31:37 2015   

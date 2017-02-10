@@ -1,0 +1,220 @@
+C:\MSDChem\1\DATA\2015DATA\2015Hyde\20150910HYDE\150910Hyde057.D\audit.txt 
+Created Thu Nov 26 15:28:48 2015
+
+
+ Modified : Thu Nov 26 15:28:48 2015
+ Event    : Header Update
+ Message  : Changed sample multiplier from 1 to 555
+ QuantFile: 150910MARKESshort.RES
+ Severity : 1
+
+
+ Modified : Thu Nov 26 15:28:49 2015
+ Event    : Quantitation 
+ Message  : Calculation using initial calibration
+ QuantFile: 150910MARKESshort.RES
+ Severity : 0
+
+
+ Modified : Thu Nov 26 15:28:50 2015
+ Event    : Report Generation 
+ Message  : Generated Report using option: s
+ QuantFile: 150910MARKESshort.RES
+ Severity : 0
+
+
+ Modified : Thu Nov 26 15:28:58 2015
+ Event    : Manual Integration
+ Message  : Changed peak amount for Propanal from 0 to 0.265182
+ QuantFile: 150910MARKESshort.RES
+ Severity : 1
+
+
+ Modified : Thu Nov 26 15:29:04 2015
+ Event    : Manual Integration
+ Message  : Changed peak amount for Methacrolein from 0 to 0.0538141
+ QuantFile: 150910MARKESshort.RES
+ Severity : 1
+
+
+ Modified : Thu Nov 26 15:29:10 2015
+ Event    : Manual Integration
+ Message  : Changed peak amount for Pentanal??? from 0 to 0.0725561
+ QuantFile: 150910MARKESshort.RES
+ Severity : 1
+
+
+ Modified : Thu Nov 26 15:29:15 2015
+ Event    : QDEL
+ Message  : QDEL'ed heptanal
+ QuantFile: 150910MARKESshort.RES
+ Severity : 1
+
+
+ Modified : Thu Nov 26 15:29:20 2015
+ Event    : QDEL
+ Message  : QDEL'ed nonanal
+ QuantFile: 150910MARKESshort.RES
+ Severity : 1
+
+
+ Modified : Thu Nov 26 15:29:25 2015
+ Event    : Manual Integration
+ Message  : Changed peak amount for Isopropanol from 0 to 0.0729724
+ QuantFile: 150910MARKESshort.RES
+ Severity : 1
+
+
+ Modified : Thu Nov 26 15:29:33 2015
+ Event    : QDEL
+ Message  : QDEL'ed 6-methyl-2-hepten-3-one
+ QuantFile: 150910MARKESshort.RES
+ Severity : 1
+
+
+ Modified : Thu Nov 26 15:29:38 2015
+ Event    : Manual Integration
+ Message  : Changed peak amount for 1-Penten-3-ol from 0 to 0.0086032
+ QuantFile: 150910MARKESshort.RES
+ Severity : 1
+
+
+ Modified : Thu Nov 26 15:29:44 2015
+ Event    : Manual Integration
+ Message  : Changed peak amount for 1-Pentanol from 0 to 0.0121541
+ QuantFile: 150910MARKESshort.RES
+ Severity : 1
+
+
+ Modified : Thu Nov 26 15:29:49 2015
+ Event    : Manual Integration
+ Message  : Changed peak amount for trans-3-hexen-1-ol from 0 to 0.00584576
+ QuantFile: 150910MARKESshort.RES
+ Severity : 1
+
+
+ Modified : Thu Nov 26 15:29:55 2015
+ Event    : QDEL
+ Message  : QDEL'ed trans-2-Hexen-1-ol
+ QuantFile: 150910MARKESshort.RES
+ Severity : 1
+
+
+ Modified : Thu Nov 26 15:29:59 2015
+ Event    : Manual Integration
+ Message  : Changed peak amount for 1-Hexanol from 0 to 0.0124987
+ QuantFile: 150910MARKESshort.RES
+ Severity : 1
+
+
+ Modified : Thu Nov 26 15:30:07 2015
+ Event    : QDEL
+ Message  : QDEL'ed cis-3-hexenylacetate
+ QuantFile: 150910MARKESshort.RES
+ Severity : 1
+
+
+ Modified : Thu Nov 26 15:30:12 2015
+ Event    : Manual Integration
+ Message  : Changed peak amount for a-pinene-oxide from 0 to 0.0374187
+ QuantFile: 150910MARKESshort.RES
+ Severity : 1
+
+
+ Modified : Thu Nov 26 15:30:21 2015
+ Event    : QDEL
+ Message  : QDEL'ed Isobutyricacid
+ QuantFile: 150910MARKESshort.RES
+ Severity : 1
+
+
+ Modified : Thu Nov 26 15:30:27 2015
+ Event    : Manual Integration
+ Message  : Changed peak amount for isopentanoicacid from 0 to 0.024777
+ QuantFile: 150910MARKESshort.RES
+ Severity : 1
+
+
+ Modified : Thu Nov 26 15:30:33 2015
+ Event    : QDEL
+ Message  : QDEL'ed 4-methylpentanoicacid
+ QuantFile: 150910MARKESshort.RES
+ Severity : 1
+
+
+ Modified : Thu Nov 26 15:30:39 2015
+ Event    : QDEL
+ Message  : QDEL'ed heptanoicacid
+ QuantFile: 150910MARKESshort.RES
+ Severity : 1
+
+
+ Modified : Thu Nov 26 15:30:46 2015
+ Event    : Manual Integration
+ Message  : Changed peak amount for Benzene from 0.480975 to 0.424351
+ QuantFile: 150910MARKESshort.RES
+ Severity : 1
+
+
+ Modified : Thu Nov 26 15:30:56 2015
+ Event    : Manual Integration
+ Message  : Changed peak amount for o-xylene from 0 to 0.0290904
+ QuantFile: 150910MARKESshort.RES
+ Severity : 1
+
+
+ Modified : Thu Nov 26 15:31:01 2015
+ Event    : Manual Integration
+ Message  : Changed peak amount for Hexane from 0.26474 to 0.0986371
+ QuantFile: 150910MARKESshort.RES
+ Severity : 1
+
+
+ Modified : Thu Nov 26 15:31:05 2015
+ Event    : Manual Integration
+ Message  : Changed peak amount for Heptane from 0 to 0.141585
+ QuantFile: 150910MARKESshort.RES
+ Severity : 1
+
+
+ Modified : Thu Nov 26 15:31:11 2015
+ Event    : Manual Integration
+ Message  : Changed peak amount for Nonane from 0 to 0.0205895
+ QuantFile: 150910MARKESshort.RES
+ Severity : 1
+
+
+ Modified : Thu Nov 26 15:31:13 2015
+ Event    : Manual Integration
+ Message  : Changed peak amount for Nonane from 0.0205895 to 0.0928281
+ QuantFile: 150910MARKESshort.RES
+ Severity : 1
+
+
+ Modified : Thu Nov 26 15:31:20 2015
+ Event    : Manual Integration
+ Message  : Changed peak amount for octane from 0 to 0.047659
+ QuantFile: 150910MARKESshort.RES
+ Severity : 1
+
+
+ Modified : Thu Nov 26 15:31:27 2015
+ Event    : Manual Integration
+ Message  : Changed peak amount for Nopinone from 0 to 0.00761029
+ QuantFile: 150910MARKESshort.RES
+ Severity : 1
+
+
+ Modified : Thu Nov 26 15:31:31 2015
+ Event    : Manual Integration
+ Message  : Changed peak amount for Pinonaldehyde?_as_nopinone from 0.10194 to 0.0235617
+ QuantFile: 150910MARKESshort.RES
+ Severity : 1
+
+
+ Modified : Thu Nov 26 15:31:37 2015
+ Event    : Report Generation 
+ Message  : Generated Report using option: 
+ QuantFile: 150910MARKESshort.RES
+ Severity : 0
+
