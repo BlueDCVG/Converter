@@ -36,7 +36,7 @@ public class WriterOma {
             e.printStackTrace();
         }
 
-        for (DataSet dataPiste: dataList) {
+        for (DataSet dataPiste : dataList) {
             try {
                 writer.append(dataPiste.getFileName() + ",");
             } catch (IOException e) {
@@ -58,7 +58,7 @@ public class WriterOma {
             e.printStackTrace();
         }
 
-        for (DataSet dataPiste: dataList) {
+        for (DataSet dataPiste : dataList) {
             try {
                 writer.append(dataPiste.getDate() + " " + dataPiste.getTime() + ",");
             } catch (IOException e) {
@@ -80,7 +80,7 @@ public class WriterOma {
             e.printStackTrace();
         }
 
-        for (DataSet dataPiste: dataList) {
+        for (DataSet dataPiste : dataList) {
             try {
                 writer.append(dataPiste.getMultiplier() + ",");
             } catch (IOException e) {
@@ -115,7 +115,7 @@ public class WriterOma {
                 e.printStackTrace();
             }
 
-            for (DataSet dataPiste: this.dataList) {
+            for (DataSet dataPiste : this.dataList) {
                 try {
                     writer.append(dataPiste.getConcentration().get(i) + ",");
                 } catch (IOException e) {
@@ -142,7 +142,7 @@ public class WriterOma {
                 e.printStackTrace();
             }
 
-            for (DataSet dataPiste: this.dataList) {
+            for (DataSet dataPiste : this.dataList) {
                 try {
                     writer.append(dataPiste.getResponse().get(i) + ",");
                 } catch (IOException e) {

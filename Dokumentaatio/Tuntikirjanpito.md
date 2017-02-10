@@ -9,3 +9,4 @@ xx.01.2017 | 12h | Aiheen suunnittelua ja repon luonti
 08.02.2017 | 2h | Perus koodailua ja testien luontia
 09.02.2017 | 6h | Ohjelmiston rakenteen muutoksia (kaikki testit hajos)
 10.02.2017 | 4h | Core logiikka toimii nyt
+10.02.2017 | 4h | Testien korjauksia

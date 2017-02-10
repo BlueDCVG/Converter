@@ -28,8 +28,8 @@ public class Reader {
         for (File file : files) {
 
             try {
-            BufferedReader bfReader = new BufferedReader(new FileReader(file));
-            ArrayList<String[]> rivit = new ArrayList<>();
+                BufferedReader bfReader = new BufferedReader(new FileReader(file));
+                ArrayList<String[]> rivit = new ArrayList<>();
                 String line = null;
                 try {
                     line = bfReader.readLine();
@@ -38,7 +38,7 @@ public class Reader {
                 }
 
                 while (line != null) {
-                rivit.add(line.split("  +"));
+                    rivit.add(line.split("  +"));
                     try {
                         line = bfReader.readLine();
                     } catch (IOException e) {
@@ -46,9 +46,9 @@ public class Reader {
                     }
                 }
                 dataFiguration(rivit);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            }
         }
         return this.dataSets;
     }
@@ -63,16 +63,16 @@ public class Reader {
                     target = i + 1;
                     break;
                 }
-                if(dataList.get(i)[1].startsWith("Data File :")){
+                if (dataList.get(i)[1].startsWith("Data File :")) {
                     String[] fileNameRow = dataList.get(i)[1].split(" ");
-                    dataPiste.setFileName(fileNameRow[fileNameRow.length-1]);
+                    dataPiste.setFileName(fileNameRow[fileNameRow.length - 1]);
                 }
-                if(dataList.get(i)[1].startsWith("Acq On")){
+                if (dataList.get(i)[1].startsWith("Acq On")) {
                     String[] fileDate = dataList.get(i)[2].split(": ");
-                    dataPiste.setDate(fileDate[fileDate.length-1]);
+                    dataPiste.setDate(fileDate[fileDate.length - 1]);
                     dataPiste.setTime(dataList.get(i)[3]);
                 }
-                if(dataList.get(i).length>3) {
+                if (dataList.get(i).length > 3) {
                     if (dataList.get(i)[3].startsWith("Sample Multiplier:")) {
                         String[] fileMult = dataList.get(i)[3].split(" ");
                         dataPiste.setMultiplier(fileMult[fileMult.length - 1]);
