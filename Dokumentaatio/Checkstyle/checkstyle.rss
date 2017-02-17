@@ -46,6 +46,34 @@ under the License.
           <tbody>
                           <tr>
                 <td>
+                  <a href="${project.url}/checkstyle.html#converter.converter.corelogic.Converter.java">converter/converter/corelogic/Converter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#converter.converter.corelogic.WriterOma.java">converter/converter/corelogic/WriterOma.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="${project.url}/checkstyle.html#converter.converter.Main.java">converter/converter/Main.java</a>
                 </td>
                 <td>
@@ -60,7 +88,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#converter.converter.Drawer.java">converter/converter/Drawer.java</a>
+                  <a href="${project.url}/checkstyle.html#converter.converter.corelogic.Drawer.java">converter/converter/corelogic/Drawer.java</a>
                 </td>
                 <td>
                   0
@@ -74,7 +102,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#converter.converter.WriterOma.java">converter/converter/WriterOma.java</a>
+                  <a href="${project.url}/checkstyle.html#converter.converter.userinterface.UserInterface.java">converter/converter/userinterface/UserInterface.java</a>
                 </td>
                 <td>
                   0
@@ -88,7 +116,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#converter.converter.Converter.java">converter/converter/Converter.java</a>
+                  <a href="${project.url}/checkstyle.html#converter.converter.corelogic.DataSet.java">converter/converter/corelogic/DataSet.java</a>
                 </td>
                 <td>
                   0
@@ -102,35 +130,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#converter.converter.DataSet.java">converter/converter/DataSet.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="${project.url}/checkstyle.html#converter.converter.UI.java">converter/converter/UI.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="${project.url}/checkstyle.html#converter.converter.Reader.java">converter/converter/Reader.java</a>
+                  <a href="${project.url}/checkstyle.html#converter.converter.corelogic.Reader.java">converter/converter/corelogic/Reader.java</a>
                 </td>
                 <td>
                   0

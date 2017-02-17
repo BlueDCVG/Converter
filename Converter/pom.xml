@@ -47,11 +47,9 @@
             <configuration>
         <targetClasses>
             <param>converter.converter.*</param>
-            <param>converter.tekoaly.*</param>
         </targetClasses>
         <targetTests>
             <param>converter.converter.*</param>
-            <param>converter.tekoaly.*</param>
         </targetTests>
     </configuration>
         </plugin>

@@ -1,6 +1,10 @@
-package converter.converter;
+package converter.converter.corelogic;
 
 import java.util.ArrayList;
+
+/**
+ * DataSet is to specify a single measurement. It has all the data from single result file.
+ */
 
 public class DataSet {
     private String  date;
@@ -10,6 +14,11 @@ public class DataSet {
     private ArrayList<String> compounds;
     private ArrayList<String> responses;
     private ArrayList<String> concentrations;
+
+    /**
+     * DataSet generator. The multiplier is set by default to 1.
+     * Note that fileName is not the read file name thus it is not called results every time.
+     */
 
     public DataSet() {
         this.date = "";
@@ -49,6 +58,11 @@ public class DataSet {
         return compounds;
     }
 
+    /**
+     * Adds a compound to the list.
+     * @param compound is the compounds name added to the list
+     */
+
     public void addCompounds(String compound) {
         this.compounds.add(compound);
     }
@@ -57,6 +71,11 @@ public class DataSet {
         return responses;
     }
 
+    /**
+     * Adds a response to the list.
+     * @param response is the compounds response added to the list
+     */
+
     public void addResponse(String response) {
         this.responses.add(response);
     }
@@ -64,6 +83,11 @@ public class DataSet {
     public ArrayList<String> getConcentration() {
         return concentrations;
     }
+
+    /**
+     * Adds a concentration to the list.
+     * @param concentration is the compounds concentration added to the list
+     */
 
     public void addConcentration(String concentration) {
         this.concentrations.add(concentration);

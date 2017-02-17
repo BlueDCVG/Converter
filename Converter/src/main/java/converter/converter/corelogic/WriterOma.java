@@ -1,15 +1,24 @@
-package converter.converter;
+package converter.converter.corelogic;
 
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
+
+/**
+ * WriterOma writes the csv file. It now writes two different types of files.
+ * You have to make two files if you want all the data.
+ * The file is written row by row. This is the easiest way to write a cvs document.
+ */
 
 public class WriterOma {
-
     private FileWriter writer;
     private ArrayList<DataSet> dataList;
     private ArrayList<String> compounds;
+
+    /**
+     * Opens the writer.
+     * @param name  is the filename that is created.
+     */
 
     public WriterOma(String name) {
 
@@ -20,14 +29,22 @@ public class WriterOma {
         }
     }
 
+    /**
+     * Prints the top three rows which contains filenames, measurements times and dates and multipliers.
+     * @param dataList is the data given by the reader.
+     */
+
     public void newSheet(ArrayList<DataSet> dataList) {
         this.dataList = dataList;
-
         printFileName();
         printDateNTime();
         printMult();
 
     }
+
+    /**
+     * Prints all the DataSets fileNames in a row.
+     */
 
     private void printFileName() {
         try {
@@ -51,6 +68,10 @@ public class WriterOma {
         }
     }
 
+    /**
+     * Prints all the DataSets Dates and times in a row.
+     */
+
     private void printDateNTime() {
         try {
             writer.append(" " + ",");
@@ -72,6 +93,10 @@ public class WriterOma {
             e.printStackTrace();
         }
     }
+
+    /**
+     * Prints all the DataSets multipliers in a row.
+     */
 
     private void printMult() {
         try {
@@ -95,6 +120,10 @@ public class WriterOma {
         }
     }
 
+    /**
+     * Closes the writer.
+     */
+
     public void jobDone() {
         try {
             writer.flush();
@@ -104,6 +133,10 @@ public class WriterOma {
         }
 
     }
+
+    /**
+     * Prints all the DataSets compounds and their concentrations in a rows.
+     */
 
     public void printConcAll() {
 
@@ -132,6 +165,10 @@ public class WriterOma {
         }
     }
 
+    /**
+     * Prints all the DataSets compounds and their responses in a rows.
+     */
+
     public void printResponseAll() {
 
         for (int i = 0; i < this.dataList.get(0).getCompounds().size() - 1; i++) {
@@ -141,7 +178,6 @@ public class WriterOma {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-
             for (DataSet dataPiste : this.dataList) {
                 try {
                     writer.append(dataPiste.getResponse().get(i) + ",");
@@ -149,7 +185,6 @@ public class WriterOma {
                     e.printStackTrace();
                 }
             }
-
             try {
                 writer.append('\n');
             } catch (IOException e) {
@@ -158,5 +193,4 @@ public class WriterOma {
 
         }
     }
-
 }
