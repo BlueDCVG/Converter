@@ -21,7 +21,8 @@ public class ReaderTest {
         filut.add(new File("150910Hyde057.D/results.txt"));
         filut.add(new File("150910Hyde058.D/results.txt"));
 
-        this.lukija = new Reader(filut);
+        this.lukija = new Reader();
+        this.lukija.setFiles(filut);
         this.results = this.lukija.dataList();
     }
 

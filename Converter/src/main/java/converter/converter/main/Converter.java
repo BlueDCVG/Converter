@@ -10,6 +10,10 @@ import javax.swing.*;
 
 public class Converter {
 
+    
+ /**
+ * This will communicate between the reader, writer and UI.
+ */
     public static void main() {
         UserInterface kayttoliittyma = new UserInterface();
         SwingUtilities.invokeLater(kayttoliittyma);

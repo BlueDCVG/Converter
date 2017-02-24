@@ -2,16 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04f25c0c-cc54-4a8b-acbf-fd443ffaea72" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/converter/converter/main/Converter.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/converter/converter/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/converter/converter/corelogic/Converter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Dokumentaatio/pit/converter.converter.userinterface/UserInterface.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Dokumentaatio/pit/converter.converter.userinterface/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Dokumentaatio/pit/converter.converter/Main.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Dokumentaatio/pit/converter.converter/index.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbactions.xml" afterPath="$PROJECT_DIR$/nbactions.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/converter/converter/corelogic/Reader.java" afterPath="$PROJECT_DIR$/src/main/java/converter/converter/corelogic/Reader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/converter/converter/corelogic/WriterOma.java" afterPath="$PROJECT_DIR$/src/main/java/converter/converter/corelogic/WriterOma.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/converter/converter/userinterface/UserInterface.java" afterPath="$PROJECT_DIR$/src/main/java/converter/converter/userinterface/UserInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dokumentaatio/Tuntikirjanpito.md" afterPath="$PROJECT_DIR$/../Dokumentaatio/Tuntikirjanpito.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Converter.iml" afterPath="$PROJECT_DIR$/Converter.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/converter/converter/main/Converter.java" afterPath="$PROJECT_DIR$/src/main/java/converter/converter/main/Converter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/converter/converter/corelogic/ReaderTest.java" afterPath="$PROJECT_DIR$/src/test/java/converter/converter/corelogic/ReaderTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/converter/converter/corelogic/WriterOmaTest.java" afterPath="$PROJECT_DIR$/src/test/java/converter/converter/corelogic/WriterOmaTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.csv" afterPath="$PROJECT_DIR$/test.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dokumentaatio/Checkstyle/checkstyle.html" afterPath="$PROJECT_DIR$/../Dokumentaatio/Checkstyle/checkstyle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dokumentaatio/Checkstyle/checkstyle.rss" afterPath="$PROJECT_DIR$/../Dokumentaatio/Checkstyle/checkstyle.rss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dokumentaatio/Checkstyle/xref/allclasses-frame.html" afterPath="$PROJECT_DIR$/../Dokumentaatio/Checkstyle/xref/allclasses-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dokumentaatio/Checkstyle/xref/converter/converter/corelogic/Reader.html" afterPath="$PROJECT_DIR$/../Dokumentaatio/Checkstyle/xref/converter/converter/corelogic/Reader.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dokumentaatio/Checkstyle/xref/converter/converter/corelogic/WriterOma.html" afterPath="$PROJECT_DIR$/../Dokumentaatio/Checkstyle/xref/converter/converter/corelogic/WriterOma.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dokumentaatio/Checkstyle/xref/converter/converter/corelogic/package-frame.html" afterPath="$PROJECT_DIR$/../Dokumentaatio/Checkstyle/xref/converter/converter/corelogic/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dokumentaatio/Checkstyle/xref/converter/converter/corelogic/package-summary.html" afterPath="$PROJECT_DIR$/../Dokumentaatio/Checkstyle/xref/converter/converter/corelogic/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dokumentaatio/Checkstyle/xref/converter/converter/userinterface/UserInterface.html" afterPath="$PROJECT_DIR$/../Dokumentaatio/Checkstyle/xref/converter/converter/userinterface/UserInterface.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dokumentaatio/Checkstyle/xref/overview-frame.html" afterPath="$PROJECT_DIR$/../Dokumentaatio/Checkstyle/xref/overview-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dokumentaatio/Checkstyle/xref/overview-summary.html" afterPath="$PROJECT_DIR$/../Dokumentaatio/Checkstyle/xref/overview-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dokumentaatio/pit/converter.converter.corelogic/DataSet.java.html" afterPath="$PROJECT_DIR$/../Dokumentaatio/pit/converter.converter.corelogic/DataSet.java.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dokumentaatio/pit/converter.converter.corelogic/Reader.java.html" afterPath="$PROJECT_DIR$/../Dokumentaatio/pit/converter.converter.corelogic/Reader.java.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dokumentaatio/pit/converter.converter.corelogic/WriterOma.java.html" afterPath="$PROJECT_DIR$/../Dokumentaatio/pit/converter.converter.corelogic/WriterOma.java.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dokumentaatio/pit/converter.converter.corelogic/index.html" afterPath="$PROJECT_DIR$/../Dokumentaatio/pit/converter.converter.corelogic/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dokumentaatio/pit/index.html" afterPath="$PROJECT_DIR$/../Dokumentaatio/pit/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../README.md" afterPath="$PROJECT_DIR$/../README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reader.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Reader.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/converter/converter/corelogic/Reader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="999">
+              <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding>
                 <element signature="e#541#542#0" expanded="true" />
                 <element signature="e#590#591#0" expanded="true" />
@@ -61,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WriterOma.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WriterOma.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/converter/converter/corelogic/WriterOma.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="148" column="90" lean-forward="false" selection-start-line="148" selection-start-column="90" selection-end-line="148" selection-end-column="90" />
+            <state relative-caret-position="935">
+              <caret line="58" column="61" lean-forward="false" selection-start-line="58" selection-start-column="61" selection-end-line="58" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -78,6 +94,7 @@
               <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <marker date="1487952968290" expanded="true" signature="314:433" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -111,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="186">
-              <caret line="46" column="27" lean-forward="true" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+              <caret line="46" column="27" lean-forward="false" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -810,12 +827,13 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23404256" sideWeight="0.46778917" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -838,7 +856,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23404256" sideWeight="0.46778917" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -916,6 +933,7 @@
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1487952968290" expanded="true" signature="314:433" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -980,6 +998,7 @@
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1487952968290" expanded="true" signature="314:433" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1027,6 +1046,7 @@
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1487952968290" expanded="true" signature="314:433" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1066,6 +1086,7 @@
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1487952968290" expanded="true" signature="314:433" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1105,6 +1126,7 @@
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1487952968290" expanded="true" signature="314:433" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1144,6 +1166,7 @@
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1487952968290" expanded="true" signature="314:433" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1183,6 +1206,7 @@
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1487952968290" expanded="true" signature="314:433" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1243,7 +1267,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
-          <caret line="46" column="27" lean-forward="true" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+          <caret line="46" column="27" lean-forward="false" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1258,30 +1282,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/converter/converter/corelogic/Drawer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/converter/converter/corelogic/DataSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="89" column="7" lean-forward="false" selection-start-line="89" selection-start-column="7" selection-end-line="89" selection-end-column="7" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/converter/converter/corelogic/Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1291,6 +1296,7 @@
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1487952968290" expanded="true" signature="314:433" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1307,9 +1313,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/converter/converter/corelogic/WriterOma.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="148" column="90" lean-forward="false" selection-start-line="148" selection-start-column="90" selection-end-line="148" selection-end-column="90" />
+        <state relative-caret-position="935">
+          <caret line="58" column="61" lean-forward="false" selection-start-line="58" selection-start-column="61" selection-end-line="58" selection-end-column="61" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/converter/converter/corelogic/Drawer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/converter/converter/corelogic/Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

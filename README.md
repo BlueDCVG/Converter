@@ -4,7 +4,7 @@ Ohjelman tarkoitus on muuttaa mittauslaitteen ulosannista suoraan raportti excel
 
 [pit-raporttia] (https://htmlpreview.github.io/?https://github.com/BlueDCVG/Converter/blob/master/Dokumentaatio/pit/index.html)
 
-[Checkstyle-raportti](https://htmlpreview.github.io/?https://github.com/BlueDCVG/Converter/blob/master/Dokumentaatio/Checkstyle/checkstyle.html)
+[Checkstyle-raportti (errorit UI:ssa)](https://htmlpreview.github.io/?https://github.com/BlueDCVG/Converter/blob/master/Dokumentaatio/Checkstyle/checkstyle.html)
 
 [Käyttöohjeet](https://github.com/BlueDCVG/Converter/blob/master/Dokumentaatio/K%C3%A4ytt%C3%B6ohjeet.md)
 
