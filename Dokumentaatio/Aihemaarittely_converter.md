@@ -3,3 +3,8 @@ Converterin ideana on saada kontaktia sellaiseen ohjelman suunnitteluun jolle ko
 
 
 ![Alt text](Alustava suunnittelu.png)
+
+![Alt text](JavaLabra 1.jpg)
+
+![Alt text](JavaLabra 3.jpg)
+

@@ -14,4 +14,6 @@ xx.01.2017 | 12h | Aiheen suunnittelua ja repon luonti
 15.02.2017 | 4h | Testejä ja koodailua
 16.02.2017 | 3h | Koodikatselma
 17.02.2017 | 6h | JavaDoc, checkstyle ja GUI
-
+22.02.2017 | 3h | GUI koodausta
+23.02.2017 | 2h | GUI ja raportointia
+24.02.2017 | 10h | raportointia ja koodausta

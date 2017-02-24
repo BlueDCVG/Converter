@@ -1,5 +1,6 @@
 package converter.converter.corelogic;
 
+import javax.swing.*;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -25,7 +26,7 @@ public class WriterOma {
         try {
             this.writer = new FileWriter(name + ".csv");
         } catch (IOException e) {
-            e.printStackTrace();
+            JOptionPane.showMessageDialog(null, e, "Error writing file!", JOptionPane.ERROR_MESSAGE);
         }
     }
 
@@ -50,21 +51,21 @@ public class WriterOma {
         try {
             writer.append(" " + ",");
         } catch (IOException e) {
-            e.printStackTrace();
+            JOptionPane.showMessageDialog(null, e, "Error writing file names!", JOptionPane.ERROR_MESSAGE);
         }
 
         for (DataSet dataPiste : dataList) {
             try {
                 writer.append(dataPiste.getFileName() + ",");
             } catch (IOException e) {
-                e.printStackTrace();
+                JOptionPane.showMessageDialog(null, e, "Error writing file names!", JOptionPane.ERROR_MESSAGE);
             }
         }
 
         try {
             writer.append('\n');
         } catch (IOException e) {
-            e.printStackTrace();
+            JOptionPane.showMessageDialog(null, e, "Error writing file names!", JOptionPane.ERROR_MESSAGE);
         }
     }
 
@@ -83,14 +84,14 @@ public class WriterOma {
             try {
                 writer.append(dataPiste.getDate() + " " + dataPiste.getTime() + ",");
             } catch (IOException e) {
-                e.printStackTrace();
+                JOptionPane.showMessageDialog(null, e, "Error writing file date and time!", JOptionPane.ERROR_MESSAGE);
             }
         }
 
         try {
             writer.append('\n');
         } catch (IOException e) {
-            e.printStackTrace();
+            JOptionPane.showMessageDialog(null, e, "Error writing file date and time!", JOptionPane.ERROR_MESSAGE);
         }
     }
 
@@ -102,21 +103,21 @@ public class WriterOma {
         try {
             writer.append(" " + ",");
         } catch (IOException e) {
-            e.printStackTrace();
+            JOptionPane.showMessageDialog(null, e, "Error writing file multiplier!", JOptionPane.ERROR_MESSAGE);
         }
 
         for (DataSet dataPiste : dataList) {
             try {
                 writer.append(dataPiste.getMultiplier() + ",");
             } catch (IOException e) {
-                e.printStackTrace();
+                JOptionPane.showMessageDialog(null, e, "Error writing file multiplier!", JOptionPane.ERROR_MESSAGE);
             }
         }
 
         try {
             writer.append('\n');
         } catch (IOException e) {
-            e.printStackTrace();
+            JOptionPane.showMessageDialog(null, e, "Error writing file multiplier!", JOptionPane.ERROR_MESSAGE);
         }
     }
 
@@ -129,7 +130,7 @@ public class WriterOma {
             writer.flush();
             writer.close();
         } catch (IOException e) {
-            e.printStackTrace();
+            JOptionPane.showMessageDialog(null, e, "Error in stopping writing file!", JOptionPane.ERROR_MESSAGE);
         }
 
     }
@@ -145,21 +146,21 @@ public class WriterOma {
             try {
                 writer.append(this.dataList.get(0).getCompounds().get(i) + ",");
             } catch (IOException e) {
-                e.printStackTrace();
+                JOptionPane.showMessageDialog(null, e, "Error writing file compounds names!", JOptionPane.ERROR_MESSAGE);
             }
 
             for (DataSet dataPiste : this.dataList) {
                 try {
                     writer.append(dataPiste.getConcentration().get(i) + ",");
                 } catch (IOException e) {
-                    e.printStackTrace();
+                    JOptionPane.showMessageDialog(null, e, "Error writing file concentrations!", JOptionPane.ERROR_MESSAGE);
                 }
             }
 
             try {
                 writer.append('\n');
             } catch (IOException e) {
-                e.printStackTrace();
+                JOptionPane.showMessageDialog(null, e, "Error writing file concentrations!", JOptionPane.ERROR_MESSAGE);
             }
 
         }
@@ -176,19 +177,19 @@ public class WriterOma {
             try {
                 writer.append(this.dataList.get(0).getCompounds().get(i) + ",");
             } catch (IOException e) {
-                e.printStackTrace();
+                JOptionPane.showMessageDialog(null, e, "Error writing file compounds names!", JOptionPane.ERROR_MESSAGE);
             }
             for (DataSet dataPiste : this.dataList) {
                 try {
                     writer.append(dataPiste.getResponse().get(i) + ",");
                 } catch (IOException e) {
-                    e.printStackTrace();
+                    JOptionPane.showMessageDialog(null, e, "Error writing file responses!", JOptionPane.ERROR_MESSAGE);
                 }
             }
             try {
                 writer.append('\n');
             } catch (IOException e) {
-                e.printStackTrace();
+                JOptionPane.showMessageDialog(null, e, "Error writing file responses!", JOptionPane.ERROR_MESSAGE);
             }
 
         }

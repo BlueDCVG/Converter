@@ -46,10 +46,10 @@
             <version>1.1.8</version>
             <configuration>
         <targetClasses>
-            <param>converter.converter.*</param>
+            <param>converter.converter.corelogic*</param>
         </targetClasses>
         <targetTests>
-            <param>converter.converter.*</param>
+            <param>converter.converter.corelogic*</param>
         </targetTests>
     </configuration>
         </plugin>

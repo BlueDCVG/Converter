@@ -1,5 +1,6 @@
 package converter.converter.corelogic;
 
+import javax.swing.*;
 import java.io.*;
 import java.util.ArrayList;
 
@@ -16,13 +17,10 @@ public class Reader {
     private ArrayList<DataSet> dataSets;
 
     /**
-     * Files that are to be read are given in the constructor.
-     *
-     * @param files are given by the UI.
+     * Files that are to be read are given with a setter.
      */
 
-    public Reader(ArrayList<File> files) {
-        this.files = files;
+    public Reader() {
         this.dataSets = new ArrayList<>();
     }
 
@@ -53,7 +51,7 @@ public class Reader {
                 try {
                     line = bfReader.readLine();
                 } catch (IOException e) {
-                    e.printStackTrace();
+                    JOptionPane.showMessageDialog(null, e, "Error reading file!", JOptionPane.ERROR_MESSAGE);
                 }
 
                 while (line != null) {
@@ -61,12 +59,12 @@ public class Reader {
                     try {
                         line = bfReader.readLine();
                     } catch (IOException e) {
-                        e.printStackTrace();
+                        JOptionPane.showMessageDialog(null, e, "Error reading file!", JOptionPane.ERROR_MESSAGE);
                     }
                 }
                 dataFiguration(rivit);
             } catch (FileNotFoundException e) {
-                e.printStackTrace();
+                JOptionPane.showMessageDialog(null, e, "Error reading file!", JOptionPane.ERROR_MESSAGE);
             }
         }
         return this.dataSets;

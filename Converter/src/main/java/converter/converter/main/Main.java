@@ -1,4 +1,4 @@
-package converter.converter;
+package converter.converter.main;
 
 import converter.converter.corelogic.DataSet;
 import converter.converter.corelogic.Reader;
@@ -6,6 +6,9 @@ import converter.converter.corelogic.WriterOma;
 import converter.converter.userinterface.UserInterface;
 
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.io.File;
 import java.util.ArrayList;
 
@@ -27,7 +30,8 @@ public class Main {
 //        filut.add(new File("150910Hyde057.D/results.txt"));
 //        filut.add(new File("150910Hyde058.D/results.txt"));
 //
-//        Reader lukija = new Reader(filut);
+//        Reader lukija = new Reader();
+//        lukija.setFiles(filut);
 //        ArrayList<DataSet> tulokset = lukija.dataList();
 //        WriterOma kirjuri = new WriterOma("testConcentration");
 //        kirjuri.newSheet(tulokset);
