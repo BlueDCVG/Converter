@@ -50,7 +50,7 @@ public class Reader {
                 String line = null;
                 try {
                     line = bfReader.readLine();
-                } catch (IOException e) {
+                } catch (Exception e) {
                     JOptionPane.showMessageDialog(null, e, "Error reading file!", JOptionPane.ERROR_MESSAGE);
                 }
 
@@ -58,12 +58,12 @@ public class Reader {
                     rivit.add(line.split("  +"));
                     try {
                         line = bfReader.readLine();
-                    } catch (IOException e) {
+                    } catch (Exception e) {
                         JOptionPane.showMessageDialog(null, e, "Error reading file!", JOptionPane.ERROR_MESSAGE);
                     }
                 }
                 dataFiguration(rivit);
-            } catch (FileNotFoundException e) {
+            } catch (Exception e) {
                 JOptionPane.showMessageDialog(null, e, "Error reading file!", JOptionPane.ERROR_MESSAGE);
             }
         }
@@ -112,7 +112,7 @@ public class Reader {
                 dataPiste.addCompounds(dataList.get(k)[1]);
             }
             if (dataList.get(k).length >= 5) {
-                if (dataList.get(k)[4].contains("N.D.")) {
+                if (dataList.get(k)[4].contains("N.D.") || dataList.get(k).length == 5) {
                     dataPiste.addConcentration("0");
                     dataPiste.addResponse("0");
                 } else {

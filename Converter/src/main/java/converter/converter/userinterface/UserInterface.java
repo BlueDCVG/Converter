@@ -1,16 +1,26 @@
 package converter.converter.userinterface;
 
+import converter.converter.corelogic.DataSet;
+import converter.converter.corelogic.Reader;
+import converter.converter.corelogic.WriterOma;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.io.File;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class UserInterface implements Runnable {
 
     private JFrame frame;
     private JFileChooser fileChoser;
     private File[] selectedFiles;
+    private JLabel filesSelected;
+    private JTextField nameField;
+    private JComboBox actionSelector;
 
     public UserInterface() {
     }
@@ -25,6 +35,7 @@ public class UserInterface implements Runnable {
 
         fileChoser.setMultiSelectionEnabled(true);
         fileChoser.setCurrentDirectory(new File("C:\\tmp"));
+        fileChoser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
 
         createComponents(frame.getContentPane());
 
@@ -38,23 +49,56 @@ public class UserInterface implements Runnable {
 
         String[] actions = {"Concentrations", "Responses"};
 
-        JLabel nameText = new JLabel("CSV file name: ");
-        JTextField nameField = new JTextField("CSV file name");
+        JLabel nameText = new JLabel("CSV file name");
+        nameField = new JTextField("");
         JLabel actionText = new JLabel("Select type of data printed: ");
-        JComboBox actionSelector = new JComboBox(actions);
-        JLabel filesSelected = new JLabel(" files selected");
+        actionSelector = new JComboBox(actions);
+        filesSelected = new JLabel("0 directories selected");
 
         JButton addFilesButton = new JButton("Select files");
-        JButton startButton = new JButton("Start conversion");
-        addFilesButton.addActionListener(new ActionListener() {
-
-            public void actionPerformed(ActionEvent e) {
+        addFilesButton.addActionListener((ActionEvent e) -> {
                 int retVal = fileChoser.showOpenDialog(frame);
-                selectedFiles = fileChoser.getSelectedFiles();
+                if (retVal == JFileChooser.APPROVE_OPTION) {
+                    selectedFiles = fileChoser.getSelectedFiles();
+                    //Arrays.stream(selectedFiles).map(File::getName).collect(Collectors.joining(", "))
+                    updateFilesSelectedText(selectedFiles.length);
+                }
+        });
+
+        JButton startButton = new JButton("Start conversion");
+        startButton.addActionListener((ActionEvent e) -> {
+            if(selectedFiles != null && selectedFiles.length > 0) {
+                if(!nameField.getText().isEmpty()) {
+                    Reader reader = new Reader();
+                    WriterOma writer = new WriterOma(selectedFiles[0].getParentFile(), nameField.getText());
+
+                    Stream<File> fileStream = Stream.of(selectedFiles);
+                    ArrayList<File> resultFiles = new ArrayList<>(fileStream.filter(dir -> new File(dir, "results.txt").exists()).map(dir -> new File(dir, "results.txt")).collect(Collectors.toList()));
+
+
+                    if (resultFiles.size() > 0) {
+                        reader.setFiles(resultFiles);
+                        writer.newSheet(reader.dataList());
+
+                        if (1 == actionSelector.getSelectedIndex()) {
+                            writer.printResponseAll();
+                        } else {
+                            writer.printConcAll();
+                        }
+                        writer.jobDone();
+                        JOptionPane.showMessageDialog(frame, "Job done!");
+                    } else {
+                        JOptionPane.showMessageDialog(frame, "There where no result.txt files found in the directories selected!", "Error no results found!", JOptionPane.ERROR_MESSAGE);
+                    }
+                }else{
+                    JOptionPane.showMessageDialog(frame, "There has to be a name set to the file!", "Error no file name set!", JOptionPane.ERROR_MESSAGE);
+                }
+            }else {
+                JOptionPane.showMessageDialog(frame, "There where no directories selected!", "Error no results found!", JOptionPane.ERROR_MESSAGE);
+
             }
 
         });
-
 
         container.add(nameText);
         container.add(nameField);
@@ -70,16 +114,7 @@ public class UserInterface implements Runnable {
         return frame;
     }
 
-    public void actionPerformed(ActionEvent e) {
-        int retVal = fileChoser.showOpenDialog(frame);
-        if (retVal == JFileChooser.APPROVE_OPTION) {
-            File[] selectedfiles = fileChoser.getSelectedFiles();
-            StringBuilder sb = new StringBuilder();
-            for (int i = 0; i < selectedfiles.length; i++) {
-                sb.append(selectedfiles[i].getName() + "\n");
-            }
-            JOptionPane.showMessageDialog(frame, sb.toString());
-        }
-
+    public void updateFilesSelectedText(int numberOfDirs) {
+        filesSelected.setText(numberOfDirs + (numberOfDirs == 1 ? " directory selected." : " directories selected."));
     }
 }

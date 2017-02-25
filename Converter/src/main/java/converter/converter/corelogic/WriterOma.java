@@ -1,6 +1,7 @@
 package converter.converter.corelogic;
 
 import javax.swing.*;
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -21,11 +22,12 @@ public class WriterOma {
      * @param name  is the filename that is created.
      */
 
-    public WriterOma(String name) {
+    public WriterOma(File dir, String name) {
 
         try {
-            this.writer = new FileWriter(name + ".csv");
-        } catch (IOException e) {
+            File fileToWrite = new File(dir.getPath(), name + ".csv");
+            this.writer = new FileWriter(fileToWrite);
+        } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e, "Error writing file!", JOptionPane.ERROR_MESSAGE);
         }
     }
@@ -50,21 +52,21 @@ public class WriterOma {
     private void printFileName() {
         try {
             writer.append(" " + ",");
-        } catch (IOException e) {
+        } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e, "Error writing file names!", JOptionPane.ERROR_MESSAGE);
         }
 
         for (DataSet dataPiste : dataList) {
             try {
                 writer.append(dataPiste.getFileName() + ",");
-            } catch (IOException e) {
+            } catch (Exception e) {
                 JOptionPane.showMessageDialog(null, e, "Error writing file names!", JOptionPane.ERROR_MESSAGE);
             }
         }
 
         try {
             writer.append('\n');
-        } catch (IOException e) {
+        } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e, "Error writing file names!", JOptionPane.ERROR_MESSAGE);
         }
     }
@@ -76,21 +78,21 @@ public class WriterOma {
     private void printDateNTime() {
         try {
             writer.append(" " + ",");
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
         for (DataSet dataPiste : dataList) {
             try {
                 writer.append(dataPiste.getDate() + " " + dataPiste.getTime() + ",");
-            } catch (IOException e) {
+            } catch (Exception e) {
                 JOptionPane.showMessageDialog(null, e, "Error writing file date and time!", JOptionPane.ERROR_MESSAGE);
             }
         }
 
         try {
             writer.append('\n');
-        } catch (IOException e) {
+        } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e, "Error writing file date and time!", JOptionPane.ERROR_MESSAGE);
         }
     }
@@ -102,21 +104,21 @@ public class WriterOma {
     private void printMult() {
         try {
             writer.append(" " + ",");
-        } catch (IOException e) {
+        } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e, "Error writing file multiplier!", JOptionPane.ERROR_MESSAGE);
         }
 
         for (DataSet dataPiste : dataList) {
             try {
                 writer.append(dataPiste.getMultiplier() + ",");
-            } catch (IOException e) {
+            } catch (Exception e) {
                 JOptionPane.showMessageDialog(null, e, "Error writing file multiplier!", JOptionPane.ERROR_MESSAGE);
             }
         }
 
         try {
             writer.append('\n');
-        } catch (IOException e) {
+        } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e, "Error writing file multiplier!", JOptionPane.ERROR_MESSAGE);
         }
     }
@@ -129,7 +131,7 @@ public class WriterOma {
         try {
             writer.flush();
             writer.close();
-        } catch (IOException e) {
+        } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e, "Error in stopping writing file!", JOptionPane.ERROR_MESSAGE);
         }
 
@@ -145,21 +147,21 @@ public class WriterOma {
 
             try {
                 writer.append(this.dataList.get(0).getCompounds().get(i) + ",");
-            } catch (IOException e) {
+            } catch (Exception e) {
                 JOptionPane.showMessageDialog(null, e, "Error writing file compounds names!", JOptionPane.ERROR_MESSAGE);
             }
 
             for (DataSet dataPiste : this.dataList) {
                 try {
                     writer.append(dataPiste.getConcentration().get(i) + ",");
-                } catch (IOException e) {
-                    JOptionPane.showMessageDialog(null, e, "Error writing file concentrations!", JOptionPane.ERROR_MESSAGE);
+                } catch (Exception e) {
+                    JOptionPane.showMessageDialog(null, "Error writing file concentrations! Error in file: " + dataPiste.getFileName(), "Error writing file concentrations!", JOptionPane.ERROR_MESSAGE);
                 }
             }
 
             try {
                 writer.append('\n');
-            } catch (IOException e) {
+            } catch (Exception e) {
                 JOptionPane.showMessageDialog(null, e, "Error writing file concentrations!", JOptionPane.ERROR_MESSAGE);
             }
 
@@ -176,19 +178,19 @@ public class WriterOma {
 
             try {
                 writer.append(this.dataList.get(0).getCompounds().get(i) + ",");
-            } catch (IOException e) {
+            } catch (Exception e) {
                 JOptionPane.showMessageDialog(null, e, "Error writing file compounds names!", JOptionPane.ERROR_MESSAGE);
             }
             for (DataSet dataPiste : this.dataList) {
                 try {
                     writer.append(dataPiste.getResponse().get(i) + ",");
-                } catch (IOException e) {
-                    JOptionPane.showMessageDialog(null, e, "Error writing file responses!", JOptionPane.ERROR_MESSAGE);
+                } catch (Exception e) {
+                    JOptionPane.showMessageDialog(null, "Error writing file responses! Error in file: " + dataPiste.getFileName(), "Error writing file responses!", JOptionPane.ERROR_MESSAGE);
                 }
             }
             try {
                 writer.append('\n');
-            } catch (IOException e) {
+            } catch (Exception e) {
                 JOptionPane.showMessageDialog(null, e, "Error writing file responses!", JOptionPane.ERROR_MESSAGE);
             }
 

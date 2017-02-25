@@ -17,3 +17,4 @@ xx.01.2017 | 12h | Aiheen suunnittelua ja repon luonti
 22.02.2017 | 3h | GUI koodausta
 23.02.2017 | 2h | GUI ja raportointia
 24.02.2017 | 10h | raportointia ja koodausta
+25.02.2017 | 6h | Kalikka versio valmis toimii nyt

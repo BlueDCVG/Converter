@@ -25,7 +25,7 @@ public class WriterOmaTest {
         this.lukija = new Reader();
         this.lukija.setFiles(filut);
         this.results = this.lukija.dataList();
-        this.kirjuri = new WriterOma("test");
+        this.kirjuri = new WriterOma(new File("."),"test");
     }
 
     @Test
