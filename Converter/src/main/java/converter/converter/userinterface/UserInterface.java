@@ -1,6 +1,5 @@
 package converter.converter.userinterface;
 
-import converter.converter.corelogic.DataSet;
 import converter.converter.corelogic.Reader;
 import converter.converter.corelogic.WriterOma;
 
@@ -9,7 +8,6 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.io.File;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -70,7 +68,6 @@ public class UserInterface implements Runnable {
             if(selectedFiles != null && selectedFiles.length > 0) {
                 if(!nameField.getText().isEmpty()) {
                     Reader reader = new Reader();
-                    WriterOma writer = new WriterOma(selectedFiles[0].getParentFile(), nameField.getText());
 
                     Stream<File> fileStream = Stream.of(selectedFiles);
                     ArrayList<File> resultFiles = new ArrayList<>(fileStream.filter(dir -> new File(dir, "results.txt").exists()).map(dir -> new File(dir, "results.txt")).collect(Collectors.toList()));
@@ -78,6 +75,8 @@ public class UserInterface implements Runnable {
 
                     if (resultFiles.size() > 0) {
                         reader.setFiles(resultFiles);
+                        WriterOma writer = new WriterOma(selectedFiles[0].getParentFile(), nameField.getText());
+
                         writer.newSheet(reader.dataList());
 
                         if (1 == actionSelector.getSelectedIndex()) {
@@ -108,10 +107,6 @@ public class UserInterface implements Runnable {
         container.add(filesSelected);
         container.add(new JLabel(""));
         container.add(startButton);
-    }
-
-    public JFrame getFrame() {
-        return frame;
     }
 
     public void updateFilesSelectedText(int numberOfDirs) {

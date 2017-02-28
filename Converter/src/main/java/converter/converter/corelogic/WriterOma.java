@@ -15,7 +15,6 @@ import java.util.ArrayList;
 public class WriterOma {
     private FileWriter writer;
     private ArrayList<DataSet> dataList;
-    private ArrayList<String> compounds;
 
     /**
      * Opens the writer.
