@@ -19,3 +19,4 @@ xx.01.2017 | 12h | Aiheen suunnittelua ja repon luonti
 24.02.2017 | 10h | raportointia ja koodausta
 25.02.2017 | 6h | Kalikka versio valmis toimii nyt
 28.02.2017 | 8h | Dokumentaatiota ja palautuksen kiillottelua
+01.03.2017 | 2h | Neppailua
