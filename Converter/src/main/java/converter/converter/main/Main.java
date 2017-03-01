@@ -8,7 +8,6 @@ import javax.swing.*;
 public class Main {
 
     /**
-     * Main here just for testing the software.
      * @param args no idea
      */
 
